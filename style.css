@@ -1,0 +1,487 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: "DM Sans",sans-serif!important;
+    color: #353535;
+    line-height: 27.2px;
+    font-size: 16.5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+}
+
+.header {
+    height: 1240.5px;
+    max-width: 320px;
+}
+
+.header nav {
+    text-align: left;
+    margin-top: 0;
+    padding: 18px 32px!important;
+    margin-bottom: 170px;
+    position: fixed;
+    border: 1px solid#f9f9f9;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 1;
+}
+
+.header nav img {
+    width: 160px;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+.container {
+    
+
+}
+
+.container .abt {
+    align-items: center;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.abt h1 {
+    color: black;
+    font-size: 45px!important;
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(0px, 0px);
+    line-height: 57px;
+    margin-top: 190px;
+}
+
+.abt p {
+    font-size: 16px;
+    color: #353535;
+    margin-top: 10px;
+    font-family: "DM sans", sans-serif;
+}
+
+.reg-btn {
+    color: #ffffff;
+    font-size: 16.5px;
+    background-color: #0c1825;
+    margin: 30px 26.6719px 0px;
+    padding: 16px 22px;
+    border-radius: 12px;
+    width: max-content;
+    font-family: "DM Sans",sans-serif!important;
+}
+
+.reg-btn:hover {
+    background-color: rgb(61, 61, 243);
+    cursor: pointer;
+}
+
+.download-btn {
+    height: 146.38px;
+    margin: 30px 0px 0px;
+}
+
+.download-btn1 {
+    position: relative;
+    color: #0c1825!important;
+    padding: 7px 16px!important;
+    border: 1px solid #ddd!important;
+    border-radius: 12px!important;
+    width: 53px;
+    white-space: nowrap;
+    height: 53px;
+    transition: all .3s ease-in-out;
+    margin: 35px 5px 0px;
+    text-decoration: none;
+}
+
+.download-btn2 {
+    position: relative;
+    margin: 20px 5px 0px;
+    color: #0c1825!important;
+    padding: 7px 16px!important;
+    border: 1px solid #ddd!important;
+    border-radius: 12px!important;
+    width: 53px;
+    white-space: nowrap;
+    height: 53px;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    padding: 14.5px 13px;
+}
+
+.security {
+    padding: 130px 16px 70px;
+}
+
+.ml-auto {
+    margin-right: 0!important;
+    max-width: 258px;
+    height: 164.19px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.ml-auto img {
+    object-fit: contain;
+    width: 100%;
+    height: 116px;
+    margin: 0px 0px 40px;
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+    max-width: 530px;
+    margin-top: 70px;
+}
+
+.content h4 {
+    line-height: 36px;
+    font-size: 28px;
+    font-family: "U8-Bold";
+}
+
+.content p {
+
+}
+
+.content a {
+    color: #0d60d8;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.savings {
+    padding: 60px 16px 50px;
+}
+
+.save {
+    padding: 0px 15px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.save h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-family: "U8-Bold";
+}
+
+.save p {
+    margin: 18px 0px 53px;
+}
+
+.btn-pry {
+    padding: 16px 22px;
+    background-color: #0c1825;
+    color: #ffffff;
+    font-size: 16.5px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.btn-pry:hover {
+    cursor: pointer;
+}
+
+.save2 {
+    background-color: #f9f9f9;
+    max-width: 352px;
+    margin-bottom: 45px!important;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px!important;
+    opacity: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.save2 img {
+    width: 50%;
+    height: 50%;
+    max-width: 50px;
+}
+
+.save2 .title {
+    font-size: 25px; 
+    font-family: "U8-Bold";
+    margin: 25px 0px 0px;
+    color: #0c1825;
+}
+
+.save2 text {
+    margin: 14px 0px 8px;
+    font-size: 16px;
+}
+
+.subtitle {
+    transition: margin-left .2s ease-out;
+    margin: 0px 10px 0px 0px;
+    font-weight: 500;
+    position: relative;
+    top: 2px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.subtitle circle {
+    cx: 16.4438;
+    cy: 16.7622;
+    r: 16.0254;
+    fill: rgb(224, 239, 255);
+}
+
+.investment {
+    padding: 20px 16px 90px;
+}
+
+.img_box {
+    max-width: 256px;
+    height: 553.53px;
+    align-content: center;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.img_box img {
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tag {
+    color: #7913e5;
+    background-color: #f7f0ff;
+    margin: 0px 40px 30px 40px;
+    padding: 6px 1color0px;
+    border-radius: 40px;
+    font-weight: 700!important;
+}
+
+.heading {
+    font: 45px "U8-Bold";
+    color: #0c1825;
+}
+
+.content .text {
+    margin: 25px 0px;
+}
+
+.content .link {
+    color: #7913e5;
+    font-weight: 500!important;
+    font-size: 20px;
+}
+
+.interact-white {
+    height: 750px;
+}
+
+.blue_invest {
+    height: 285px;
+    background-color: #0d60d8;
+    padding: 80px 16px;
+    margin: 0px;
+}
+
+.blue_invest .title {
+    color: #fff;
+}
+
+.blue_invest .text {
+    color: #ffffff;
+}
+
+.blue_invest .link {
+    color: #fff;
+    margin: 65px 23.6719px 0px 23.6562px;
+}
+
+.blue_invest .debo {
+    background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/saver_c7daec0bf5/saver_c7daec0bf5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 140%;
+    width: 100%;
+    padding: 0px 15px;
+    align-items: center;
+}
+
+.customers {
+    padding: 100px 16px;
+    align-items: center;
+    text-align: center;
+    height: 390.5px;
+}
+
+.context {
+    margin-top: 100px;
+    height: 442.5px;
+}
+
+.context .head {
+    font: 28px "U8-Bold";
+    line-height: 36px;
+    font-weight: 700!important;
+}
+
+.context .text {
+    margin: 13px 0px 38px;
+}
+
+.mt-10 {
+    height: 146px;
+    margin: 30px 0px 0px;
+}
+
+.featured {
+    padding: 65px 16px;
+    background-color: #f9f9f9;
+    height: 280px;
+    align-items: center;
+    text-align: center;
+}
+
+.feat h4 {
+    font: 32px "U8-Bold";
+    line-height: 36px;
+    font-weight: 700!important;
+}
+
+.feat-img {
+    padding: 10px 15px 0px 0px;
+    align-items: center;
+    width: 100%;
+}
+
+.feat-img img {
+    padding: 40px 0px 0px;
+    margin-left: 70px;
+    display: block;
+    width: 55%;
+    height: 50%;
+}
+
+footer {
+    padding: 80px 16px 10px;
+    height: 996.38px;
+    text-align: left;
+}
+
+.img-container {
+    margin-bottom: 30px;
+    display: flex;
+    align-content: center;
+    padding: 0px 15px;
+}
+
+.img-container .logo {
+    text-align: left;
+    margin-bottom: 3px;
+    font-weight: 500;
+    display: block;
+    transition: color .5s;
+}
+
+.img-container .logo:visited {
+    color: inherit;
+}
+
+.logo img {
+    width: 160px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ft-class {
+    height: 350px;
+    max-width: 288px;
+}
+
+.ft-class p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "U8-Bold"!important;
+    margin-bottom: 10px;
+    color: #0c1825;
+}
+
+.ft-class a {
+    font-size: 12.82px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: left;
+    margin-bottom: 3px;
+    font-weight: 500;
+    transition: color .5s;
+}
+
+.ft-group {
+    width: 50%;
+    float: left;
+    margin: 0px 0px 25px;
+    padding: 0px 15px;
+}
+
+.company {
+    float: right;
+    margin: 0px 0px 30px;
+    padding: 0px 15px;
+}
+
+
+.connect {
+    margin: 20px 0px 30px;
+    padding: 0px 15px;
+    text-align: left;
+}
+
+.connect ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+}
+
+.connect a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 12.82px;
+    margin-bottom: 15px;
+    line-height: 21px;
+    display: block;
+    transition: color .5s;
+}
+
+.about .text-center {
+    margin: 0px 0px 25px;
+    color: #353535;
+    font-size: 12.82px;
+    text-align: center;
+}
+
+.about {
+    font-weight: 500;
+    margin: 40px 0 30px;
+    text-align: center;
+}
+
+.about .pry {
+    color: #083e9e;
+    font-size: 13px;
+    text-align: center;
+}
