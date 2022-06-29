@@ -23,14 +23,14 @@ header {
 header nav {
     width: 100%;
     text-align: left;
-    margin-top: 0;
+    top: 0;
     padding: 18px 32px!important;
     margin-bottom: 170px;
     position: fixed;
     background-color: #f9f9f9;
-    border: solid #fff;
-    border-radius: 0px 0px 4px 4px;
-    opacity: 2;
+    color: #0c1825;
+    border-radius: 0px;
+    opacity: 1;
 }
 
 header nav img {
@@ -68,6 +68,7 @@ header nav img {
 
 .container .himg {
     object-fit: cover;
+    position: relative;
     opacity: 1;
     max-width: 362px;
     border-radius: 16px;
@@ -303,8 +304,8 @@ header nav img {
 }
 
 .img_box img {
-    height: 30%;
-    width: 20%;
+    height: 70%;
+    width: 70%;
     object-fit: contain;
 }
 
@@ -356,14 +357,14 @@ header nav img {
     margin: 65px 23.6719px 0px 23.6562px;
 }
 
-.blue_invest .debo {
+.debo {
     background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/saver_c7daec0bf5/saver_c7daec0bf5.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-left: -20px;
     margin-right: -20px;
-    height: 140%;
+    height: 400px;
     width: 100%;
     padding: 0px 15px;
     align-items: center;
@@ -373,7 +374,7 @@ header nav img {
     padding: 100px 16px;
     align-items: center;
     text-align: center;
-    height: 390.5px;
+    height: 1000px;
 }
 
 .context {
@@ -399,7 +400,7 @@ header nav img {
 .featured {
     padding: 65px 16px;
     background-color: #f9f9f9;
-    height: 280px;
+    height: 405.56px;
     align-items: center;
     text-align: center;
 }
@@ -537,18 +538,28 @@ footer {
 /*TAB VIEW*/
 @media only screen and (min-width:760px) {
 
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
     header nav {
         width: 100%;
         text-align: left;
-        margin-left: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
         position: fixed;
         background-color: #fff;
+        color: #0c1825;
         box-shadow: 0 0 7px 0 #ced3da;
         opacity: 1;
     }
     
     header nav img {
-        width: 160px;
+        width: 155px;
+        height: 40px;
         margin-top: auto;
         margin-bottom: auto;
     } 
@@ -585,6 +596,7 @@ footer {
         line-height: 72px;
         margin-top: -20px;
         margin-left: 120px;
+        font-weight: 700;
     }
 
     .abt p {
@@ -770,7 +782,7 @@ footer {
         margin: 65px 23.6719px 0px 23.6562px;
     }
     
-    .blue_invest .debo {
+    .debo {
         background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/saver_c7daec0bf5/saver_c7daec0bf5.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -854,11 +866,14 @@ footer {
     }
 
 }
-
+/*Desktop View*/
 @media only screen and (min-width:1000px) {
     
     header nav {
         width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
         position: fixed;
         background-color: #fff;
         box-shadow: 0 0 6px 0 #ced3da;
@@ -1002,24 +1017,147 @@ footer {
 
     .savings {
         padding: 60px 16px 100px;
+        height: 931.84px;
     }
 
     .savings .content {
         text-align: left;
-        margin-left: 0px; 
+        margin-left: 80px; 
     }
 
     .savings .content h3 {
         font-size: 38px;
     }
 
-    .savings .save2 {
-        text-align: left;
-        padding: 30px 10px 30px 30px;
-    }
-
-    .save {
+    .save-box {
         float: right;
+        justify-content: flex-start;
+        
     }
 
+    .savings .save2 {
+        padding: 30px 10px 30px 30px;
+        margin-top: -150px;
+    }
+
+    .investment {
+        padding: 0px 16px 170px;
+        justify-content: center;
+        max-width: 1083.33px;
+        height: 731.81px;
+    }
+
+    .img_box {
+        display: flex;
+        flex: 0 0 38%;
+        height: 561.81px;
+        align-content: flex-end;
+        padding: 0px 15px;
+        max-width: 442.69px;
+        margin-left: 178px;
+    }
+
+    .content .tag {
+        margin-left: 0px;
+    }
+
+    .img-box div {
+        height: 562.04;
+    }
+    
+    .img_box img {
+        height: 553px;
+        width: 256px;
+        object-fit: contain;
+    }
+    
+    .investment .content {
+        float: right;
+        text-align: left;
+        padding: 0px 15px;
+        margin-top: -590px;
+    }
+
+    .interact-white .debo {
+        background-image: url(https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/saver_c7daec0bf5/saver_c7daec0bf5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex: 0 0 41.67%;
+        flex-direction: row;
+        margin-top: -521px;
+        float: right;
+        height: 522px;
+        width: 460px;
+        padding: 0px 15px;
+    }
+
+    .interact-white {
+        height: 522.13px;
+        max-width: 1090px;
+    }
+    
+    .blue_invest {
+        height: 522px;
+        background-color: #0d60d8;
+        padding: 80px 16px 85px;
+        max-width: 600.83px;
+    }
+
+    .blue_invest .content {
+        text-align: left;
+        margin-left: 0;
+        width: 438px;
+    }
+
+    .customers {
+        max-width: 602.8px;
+        padding: 100px 16px;
+        align-items: center;
+        text-align: left;
+        height: 450px;
+        margin-left: 500px;
+    }
+
+    .customers .context {
+        max-width: 420px;
+        height: 294px;
+        margin: 0px;
+    }    
+
+    .context .head {
+        font: 33px "U8-Bold";
+        line-height: 41.21px;
+        font-weight: 700!important;
+    }
+
+    .featured {
+        height: 172.19px;
+        background: #f9f9f9;
+        padding: 65px 16px;
+    }
+
+    .feat-img {
+        justify-content: flex-end;
+        float: right;
+        margin-right: 90px;
+        margin-top: -40px;
+    }
+    
+    .feat h4 {
+        font: 33px "U8-Bold";
+        line-height: 41.21px;
+        font-weight: 700!important;
+        align-content: flex-start;
+        float: left;
+        margin-left: 90px;
+    }
+    .feat-img img {
+        padding: 40px 0px 0px;
+        margin-left: 70px;
+        display: block;
+        width: 156px;
+        height: 67px;
+        float: left;
+    }
 }
